@@ -32,7 +32,7 @@ int main()
     }
     if(flag==1)
     {
-        printf("Primary Diognal\n");
+        printf("Secondary Diognal\n");
     }
     else
     {
