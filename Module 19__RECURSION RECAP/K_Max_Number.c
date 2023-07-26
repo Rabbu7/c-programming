@@ -1,6 +1,11 @@
 #include<stdio.h>
+#include<limits.h>
 int fun(int a[],int n,int i)
 {
+    if(i==n)
+    {
+        return INT_MIN;
+    }   
     int max=fun(a,n,i+1);
     if(a[i]>max)
     {
